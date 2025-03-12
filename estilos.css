@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #111;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn {
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
+
+.instagram {
+  background-color: #E1306C;
+}
+
+.whatsapp {
+  background-color: #25D366;
+}
+
+.formulario {
+  background-color: #007bff;
+}
